@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./product.component.css']
 })
 export class ProductComponent implements OnInit {
+  private imgUrl = "http://placehold.it/320x150";
 
 	private products: Array<Product>;
 
